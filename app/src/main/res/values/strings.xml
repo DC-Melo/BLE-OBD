@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ssdk_alipay">支付宝好友</string>
+    <string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
+    <string name="ssdk_alipaymoments">支付宝生活圈</string>
+    <string name="ssdk_bluetooth">蓝牙</string>
+    <string name="ssdk_douban">豆瓣</string>
+    <string name="ssdk_dropbox">Dropbox</string>
+    <string name="ssdk_email">邮件</string>
+    <string name="ssdk_evernote">印象笔记</string>
+    <string name="ssdk_facebook">Facebook</string>
+    <string name="ssdk_facebookmessenger">Facebook Messenger</string>
+    <string name="ssdk_facebookmessenger_client_inavailable">目前您的FacebookMessenger版本过低或未安装，需要安装才能使用</string>
+    <string name="ssdk_flickr">Flickr</string>
+    <string name="ssdk_foursquare">FourSquare</string>
+    <string name="ssdk_google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="ssdk_googleplus">Google+</string>
+    <string name="ssdk_instagram">Instagram</string>
+    <string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string name="ssdk_instapaper">Instapaper</string>
+    <string name="ssdk_instapaper_email">邮箱</string>
+    <string name="ssdk_instapaper_login">登录</string>
+    <string name="ssdk_instapaper_logining">登录中…</string>
+    <string name="ssdk_instapaper_pwd">密码</string>
+    <string name="ssdk_kaixin">开心网</string>
+    <string name="ssdk_kakaostory">KakaoStory</string>
+    <string name="ssdk_kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="ssdk_kakaotalk">KakaoTalk</string>
+    <string name="ssdk_kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="ssdk_laiwang">来往</string>
+    <string name="ssdk_laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="ssdk_laiwangmoments">来往动态</string>
+    <string name="ssdk_line">Line</string>
+    <string name="ssdk_line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="ssdk_linkedin">领英</string>
+    <string name="ssdk_mingdao">明道</string>
+    <string name="ssdk_mingdao_share_content">网页分享</string>
+    <string name="ssdk_neteasemicroblog">网易微博</string>
+    <string name="ssdk_oks_cancel">取消</string>
+    <string name="ssdk_oks_confirm">确定</string>
+    <string name="ssdk_oks_contacts">联系人</string>
+    <string name="ssdk_oks_multi_share">图文分享</string>
+    <string name="ssdk_oks_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_oks_refreshing">刷新中…</string>
+    <string name="ssdk_oks_release_to_refresh">松开刷新</string>
+    <string name="ssdk_oks_share">分享</string>
+    <string name="ssdk_oks_share_canceled">分享已取消</string>
+    <string name="ssdk_oks_share_completed">分享成功</string>
+    <string name="ssdk_oks_share_failed">分享失败</string>
+    <string name="ssdk_oks_sharing">分享操作正在后台进行…</string>
+    <string name="ssdk_pinterest">Pinterest</string>
+    <string name="ssdk_pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="ssdk_plurk">Plurk</string>
+    <string name="ssdk_pocket">Pocket</string>
+    <string name="ssdk_qq">QQ</string>
+    <string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="ssdk_qzone">QQ空间</string>
+    <string name="ssdk_renren">人人网</string>
+    <string name="ssdk_share_to_facebook">分享到Facebook</string>
+    <string name="ssdk_share_to_googleplus">分享到Google+</string>
+    <string name="ssdk_share_to_mingdao">分享到明道</string>
+    <string name="ssdk_share_to_qq">分享到QQ</string>
+    <string name="ssdk_share_to_qzone">分享到QQ空间</string>
+    <string name="ssdk_share_to_qzone_default">来自%s的分享</string>
+    <string name="ssdk_shortmessage">信息</string>
+    <string name="ssdk_sinaweibo">新浪微博</string>
+    <string name="ssdk_sohumicroblog">搜狐微博</string>
+    <string name="ssdk_sohusuishenkan">搜狐随身看</string>
+    <string name="ssdk_tencentweibo">腾讯微博</string>
+    <string name="ssdk_tumblr">Tumblr</string>
+    <string name="ssdk_twitter">Twitter</string>
+    <string name="ssdk_use_login_button">请改用“登录”按钮</string>
+    <string name="ssdk_vkontakte">VK</string>
+    <string name="ssdk_website">http://www.mob.com</string>
+    <string name="ssdk_wechat">微信好友</string>
+    <string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="ssdk_wechatfavorite">微信收藏</string>
+    <string name="ssdk_wechatmoments">微信朋友圈</string>
+    <string name="ssdk_weibo_oauth_regiseter">应用授权</string>
+    <string name="ssdk_weibo_upload_content">分享图片</string>
+    <string name="ssdk_whatsapp">WhatsApp</string>
+    <string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="ssdk_yixin">易信</string>
+    <string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="ssdk_yixinmoments">易信朋友圈</string>
+    <string name="ssdk_youdao">有道云笔记</string>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version:</string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size:</string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size:</string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed!</string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause:</string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="NoSignalException">网络异常</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="about">"        联车（上海）信息科技有限公司，简称“联车科技”，成立于2012年，是一家独立第三方整车数据采集解析技术公司。公司专注于汽车完整数据采集和深度挖掘，打造全新的车联网应用服务平台，为整个汽车产业生态圈提供全方位的数据服务。
+
+        联车科技的团队核心成员均为来自世界500强企业的汽车、通信、互联网等领域资深研发工程师，公司掌握核心技术知识产权，已拥有几十项发明专利、实用新型、软件著作权等，形成全面的专利布局。
+
+        在过去的几年里，联车科技已获得克莱斯勒杯黑马创业大赛全国第三名，微软创业加速器优秀团队，全国创新创业大赛电子信息行业第三名等多项荣誉，并入选中央电视台《创业英雄》节目，公司重点研发项目《联车魔方车辆远程诊断及控制系统》获上海市高科技成果转化项目认定等殊荣。
+
+        公司现有联车魔方、联车车盾、联车智能交互模组等产品系列，深受私家车主和政企客户喜爱。产品已实现规模化生产与销售，并通过SIMT、ilac-MRA、CNAS、MA等国家级质量检测。公司秉承严谨求实，追求极致的发展理念，凝聚优秀人才，创造先进科技，致力于成为车联网标杆和行业领军企业。"</string>
+    <string name="account_bind_success">授权成功</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">添加</string>
+    <string name="add_car">添加车辆</string>
+    <string name="barcode_msg_fail">扫描失败！</string>
+    <string name="barcode_nodata">没有找到数据</string>
+    <string name="barcode_one_dimen_success">已检测到文本内容:%1$s是否复制?</string>
+    <string name="barcode_tow_dimen_success">已检测到地址:%1$s是否打开?</string>
+    <string name="btn_login">登录</string>
+    <string name="car_age">年        份</string>
+    <string name="car_brand">车辆品牌</string>
+    <string name="car_displacement">排        量</string>
+    <string name="car_model">车辆型号</string>
+    <string name="car_vin">车  架  号</string>
+    <string name="connect_server_exception">网络异常</string>
+    <string name="contact">"联系电话： 021-50816697
+官方网站： www.auto-linked.cn
+服务邮箱： service@auto-linked.cn"</string>
+    <string name="control_command_send_success">"控制命令发送频繁
+请耐心等待%1$ss"</string>
+    <string name="device_num">终  端  号</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="forget_gesture_code">忘记手势密码?</string>
+    <string name="from_gallery">相册选择</string>
+    <string name="function_developing">"全新功能正在拼命开发中...
+近期即将上线，敬请期待"</string>
+    <string name="gps_info">开启GPS定位信息，则会享受车辆定位以及车辆轨迹查询服务</string>
+    <string name="gps_not_open">您未开启车身定位服务</string>
+    <string name="invalid_gesture_code">与上一次绘制不一致，请重新绘制</string>
+    <string name="lable_add_car">添 加 您 的 汽 车</string>
+    <string name="lable_edit_car">编 辑 您 的 汽 车</string>
+    <string name="lable_login">欢迎使用联车魔方，请登录</string>
+    <string name="lable_register">用 户 注 册</string>
+    <string name="load_all">全部加载完毕</string>
+    <string name="load_more">获取更多</string>
+    <string name="loading">正在加载...</string>
+    <string name="login_propmt">请先登录</string>
+    <string name="maintain">保养</string>
+    <string name="memo">提示</string>
+    <string name="msg">提示</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="msg_default_status">请将二维码置于屏幕中间(若光线暗请按音量的增加键)。</string>
+    <string name="next">下一步</string>
+    <string name="oil_info">数据为发改委发布的最高零售价，实际价格以上海今日油价报价为准。</string>
+    <string name="ok">确定</string>
+    <string name="plz_set_three_point">请至少设置3个点</string>
+    <string name="readme_protocol">联车魔方使用协议</string>
+    <string name="register_protocol">"欢迎注册，注册前请详细阅读服务协议!
+
+联车魔方服务协议
+
+在使用各项服务前，请仔细阅读本协议。协议文本包括了您所使用的服务及其相关条款，如后续有任何附加协议，而您又选用了其中的附加服务，则此附加协议也应作为协议的组成部分。
+联车魔方智能车载互联系统（以下简称联车魔方）相关软件及服务由联车（上海）信息科技有限公司（以下简称联车科技）提供。
+
+1.服务内容
+
+1.1联车魔方服务包括车载终端软件以及与之配套运营的运营中心；在表现形式上，既有终端软件，也有与之配套使用的各种软件和服务。
+1.2联车魔方目前为您提供包括但不限于以下服务内容：
+
+1.2.1车辆检测服务，例如：车辆体检、评分；故障信息查询、建议、车况提醒等；
+1.2.2保养维护服务，例如：保养提示、保养用品推荐、维护/维修站推荐、预约维修/保养等；
+1.2.3行车指南，例如：驾车习惯，油耗统计，违章查询信息等；
+1.2.4车辆使用与交流，例如：用车经验交流论坛，应用软件更新等；
+
+1.3联车魔方提供的服务包含后期的变更，将在联车魔方提供的官方渠道进行公示。
+1.4联车科技官方网站www.auto-linked.cn为您提供联车魔方产品功能介绍和咨询服务热线。
+
+2.开通条件
+2.1您需要预先购买正版联车魔方智能车载终端，并将终端安装在您的车辆上。
+2.2在您于联车魔方应用端软件（通常是指您手机上安装的联车魔方APP软件）注册流程中针对服务协议勾选我同意并完成账户注册及相关车辆及终端设备认证的全部流程后，联车科技将为您开通联车魔方服务。
+
+3.相关资费及付款方式
+3.1如您连续使用联车魔方及相关应用软件及服务，您将享受终身免费的车载终端数据流量，从车载终端设备激活当日起算。
+3.1.1在服务期内，免费提供的联车魔方服务参见联车魔方应用端软件公布的信息。
+
+3.2您可根据您的需求，选择免费服务期结束后的套餐类型。具体套餐内容和免费服务期/免费服务范围外的收费标准参见联车魔方官方渠道发布的信息。
+3.3除了服务期内的免费内容，您还可以选择联车魔方的增值服务。增值服务的内容、开通时间和收费标准参见联车魔方官方渠道发布的信息。
+3.4其他第三方提供服务所产生的费用（如紧急救援，现场服务提供商或拖车公司等），相关网络端服务有关的系统（如个人电脑、手机及其他与接入互联网或移动互联网有关的装置）所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动互联网而支付的手机费等），您需要自行负担。
+
+4.服务变更、中断或终止
+
+4.1为保证联车魔方服务的新颖性和实用性，联车科技将适时变更、中断或终止部分网络服务。如变更、中断或终止网络服务达二十四小时以上的，联车科技将在变更、中断或终止之前事先预告。
+
+4.2为保证服务质量，联车科技将不时对网络服务平台及相关的设备进行检修或维护，因此造成服务的合理中断，联车科技无需为此承担责任，但联车科技应尽可能事先告知。
+
+4.3如发生下列任何一种情形，您将无法享有联车魔方的全部、部分或相应服务：
+
+4.3.1您提交的个人信息和相关资料不真实、不准确；
+4.3.2您未完全并适当遵守本协议中规定的使用规则；
+4.3.3您未购买正版的联车魔方智能车载终端。
+
+5.使用规则及相关免责
+
+5.1您在联车魔方应用端APP软件成功后，联车魔方将生成您的用户账号和密码，该用户账号和密码请您妥善保管并对此账号进行的所有行为和活动负相应责任。
+5.2为保证您能够全面而有效地享有联车魔方服务，联车科技需要您提供准确的个人资料，如个人资料有任何变动，应及时更新。
+5.3为保障您账户的安全性，您不应将账号、密码转让或出借予他人使用。如您发现账号遭他人非法使用，应立即通知联车科技。因黑客行为或保管疏忽导致账号、密码遭他人非法使用，联车科技将全力协助您禁用或恢复该账号，但联车科技不对该等盗用、误用承担责任。
+5.4一旦您订购和或使用了服务，即表示您已同意将您或您车辆的数据在合理使用的范围内提供给我们，并授权我们使用您的相关信息，包括但不限于以下情况：
+
+5.4.1向您及您的车辆或您车辆的管理机构提供的一切服务；
+5.4.2就您的账户情况和您联系；
+5.4.3检查或维护您的联车魔方终端设备；
+5.4.4评估并不断改进我们的服务；
+5.4.5配合您或其他协议方共同履行服务协议条款；
+5.4.6防止欺诈或不正当使用服务；
+5.4.7遵守国家法律规定，包括已生效的可能涉及刑事调查的法院命令；
+5.4.8保护您或其他方的权利、财产或安全；
+5.4.9向您提供新的或额外的产品或服务；
+5.4.10通过联车魔方向您发送相关的商业性广告，促销信息或服务资料等商业信息；
+5.4.11为开发产品或提升质量所作的市场和客户调查。
+
+5.5为更有效地贯彻资源共享的网络精神，您通过联车魔方网络服务（包括但不限于论坛、BBS、评论、路书）上传到联车魔方服务端可公开获取区域的任何独创性内容，联车科技可无偿享有上述内容的著作权并享有免费的、永久性的、不可撤销的、非独家的和完全再许可的权利，以使用、复制、修改、改编、出版、翻译、据以创作衍生作品、传播、表演和展示此等内容（整体或部分），和/或将此等内容编入当前已知的或以后开发的其他任何形式的作品、媒体或技术中。
+5.6您承诺将合法使用联车科技提供的所有服务，并在使用过程中遵守互联网相关法律法规。
+5.7为保证我们服务的合法性及品质，联车科技对联车魔方网络服务的情况进行审查和监督，包括但不限于对您在联车魔方上发布、存储的内容进行审核，如您在使用网络服务时违反规定，联车科技将采取必要措施以减轻不当行为造成的影响。
+5.8联车科技将采取包括但不限于网页公告、电子邮件、短信提醒等方式，对联车魔方服务的变更或补充等，作出的声明、通知、警示等，均视为本协议的一部分，如您不同意,可按本协议提供的联系方式与联车科技取得联系并停止使用联车魔方服务,如您继续使用联车魔方服务，视为您同意该等声明、通知、警示的内容。
+5.9您理解并同意，联车魔方系统中的GPS定位结果会为驾驶员提供定位服务，结果仅供驾驶员参考。若出现异常情况，请以实际道路情况行驶。
+5.10您理解并同意，联车魔方中定位系统内所提供的定位数据，仅提供一般性查阅参考，不承诺提供高精度的定位以及规划路径。定位系统内所提供的信息仅供驾驶员参考，最终判断以当地的交通规则为准。
+5.11您理解并同意任何不当使用联车魔方服务所存在的风险将由您个人承担。
+5.12通讯信号，将会受运营商信号覆盖范围影响，如无信号时，部分依赖网络的服务将受限。
+5.13联车魔方服务范围仅限于中国大陆地区。我们不保证您在此区域以外能获得同等服务。
+5.14您理解并同意，对于新闻、路书等来自于互联网公共信息或用户上传的内容，联车科技不对其的实用性和有效性等提供保证。
+5.15您理解并同意，任何不当使用联车魔方所存在的风险将完全由您个人承担。
+5.16联车科技不承诺为提供便利而设置的外部链接的合法性、准确性和完整性，同时，对于该等外部链接指向的不由联车科技实际控制的任何网页上的内容，联车科技不承担任何责任。
+5.17对于因不可抗力或联车科技不能控制的原因造成的网络服务中断或其它缺陷，联车科技不承担任何责任，但将尽力减少可能造成的损失和影响。
+5．18您同意对于联车魔方提供的下列产品或者服务的质量缺陷本身及其引发的任何损失，联车科技无需承担任何责任：
+5.19.1赠送的任何产品或者服务；
+5.19.2向收费服务用户附赠的各种产品或者服务。
+
+5.20车辆行驶时，请您务必谨慎使用本系统，避免因注意力不集中而影响行车安全。若因此而造成的一切后果，将由您自行承担。
+5.21如因用户人为原因导致联车魔方车载设备受损，以致无法获得正常联车魔方相关服务，联车科技不承担任何责任。
+5.22除非适用法律或本协议另有规定，联车科技不对任何服务、数据或信息、或者通过其提供的服务做出保证，无论是明示还是默示的。
+5.23当您购买或租赁一辆装有联车魔方的二手车时，如需继续使用联车科技的服务，请按使用规则开设您个人的服务账户以替代前任车主的关联账户。若您未及时更改绑定该车辆的联车魔方车主信息，联车科技不对由此引发的任何对您的损害和利益损失承担责任。
+5.24基于功能、安全、信息服务内容、提高运算效率等因素，联车魔方相关的服务软件将会不定期发布软件更新程序包供您下载，请您关注联车魔方应用端软件和其他官方渠道发布的升级信息。联车科技并不承诺联车魔方系统能承受任何形式的恶意攻击。
+5.25只有购买了配有联车魔方设备且同意该协议的车主才能够全面使用联车魔方的所有服务内容，未购买此设备的用户并不能享有服务。
+5.26联车魔方锁车后自动升窗功能，使用此功能前必须先确认您的车辆是否具有车窗防夹功能，如若车辆不具有车窗防夹功能，在使用锁车自动升窗功能的同时，请提前告知并确保车内人员的安全，联车科技对因车窗上升过程中造成的人身伤害不承担任何法律责任。
+5.27联车魔方胎压监测功能，使用此功能前必须先确认您的车辆是否具有胎压监测的硬件及软件支持。如您的车辆不具备该项支持，则联车魔方的该项功能也无法运行。此外，联车魔方的该项功能仅是从您车辆的硬件及软件支持中获取相关数据，联车科技对由于您车辆或胎压检测硬件中原始的数据错误而导致的问题不承担任何法律责任。
+
+6.知识产权
+
+6.1联车魔方提供的所有功能与服务中包含的任何文本、图片、图形、音频和/或视频资料均受版权、商标和/或其它财产所有权法律的保护，未经相关权利人同意，上述资料均不得在任何媒体直接或间接发布、播放、出于播放或发布目的而改写或再发行，或者被用于其他任何商业目的。所有这些资料或资料的任何部分仅可作为私人和非商业用途而保存在某台计算机内。联车科技不就由上述资料产生或在传送或递交全部或部分上述资料过程中产生的延误、不准确、错误和遗漏或从中产生或由此产生的任何损害赔偿，以任何形式，向用户或任何第三方负责。
+6.2由联车魔方系统提供使用的任何软件（包括但不限于软件中所含的任何图像、照片、动画、录像、录音、音乐、文字和附加程序、随附的帮助材料）的一切权利均属于该软件的著作权人，未经该软件的著作权人许可，用户不得对该软件进行反向工程（reverse engineer）、反向编译（decompile）或反汇编（disassemble）。
+
+7.隐私保护
+
+7.1保护用户隐私是联车科技的一项基本政策，联车科技保证不对外公开或向第三方提供用户的个人信息及用户在使用网络服务时存储在联车魔方的非公开内容，但下列情况除外：
+
+7.1.1事先获得用户授权；
+7.1.2根据有关的法律法规要求；
+7.1.3按照相关政府主管部门的要求；
+7.1.4为维护社会公众的利益；
+7.1.5为维护联车魔方的合法权益。
+
+7.2联车科技可能会与第三方合作共同提供相关的网络服务，在此情况下，如该第三方同意承担与联车科技同等的保护用户隐私的责任，联车科技可以将您的注册资料等提供给该第三方。
+7.3为了对您提供更好的服务，在您于网站注册流程中针对服务协议勾选我同意并完成全部注册流程后，即表示同意授权联车科技使用您提供给联车魔方系统的有关信息。
+
+8.违约赔偿
+
+8.1联车科技尽最大可能保障和维护联车魔方用户的利益，但我们双方均不应因以下原因获得赔偿：（1）惩罚性违约金；（2）后果性损害、间接损害或特殊损害；或者（3）律师费。
+8.2联车科技基于任何缘由向您承担的最高责任额度不超过发生该等损失的服务期间内我们向您收取的服务费金额。
+
+9.通知送达
+
+9.1本协议项下联车科技对于用户所有的通知可通过网页公告、电子邮件、手机短信或常规的信件传送等方式进行；上述通知于发送之日视为已送达收件人。
+9.2用户对于联车科技的通知应当通过联车科技对外正式公布的通信地址、电子邮件地址等联系信息进行送达。
+
+联车科技联系方式：
+服务邮箱： service@auto-linked.cn
+书面邮寄地址：上海市浦东新区盛夏路570号201室
+邮政编码：201210
+
+10.法律管辖
+10.1本协议的订立、执行和解释及争议的解决均应适用中国法律并受中国法院管辖。
+10.2如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，可向联车科技所在地的人民法院提起诉讼。
+
+11.其他规定
+11.1您确认，在接受本协议之前，您已仔细阅读并充分理解了本协议的每一条款。您完全知晓并同意本协议项下我们的除外责任以及您的责任和权利。
+11.2如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。
+11.3您承诺将此协议内容以及相关网站公示信息告知您的乘客、驾驶员或任何使用您车辆或联车魔方账户的人并促使其同意。
+11.4本协议解释权归联车（上海）信息科技有限公司所有。
+
+联车（上海）信息科技有限公司
+2014年5 月 1 日"</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_success_prompt">马上添加您的车辆，体验联车魔方为您爱车带来的全面的体检服务与智慧功能吧</string>
+    <string name="remote_control_close_skylight">您是否要远程关天窗</string>
+    <string name="remote_control_close_windows">您是否要远程关窗</string>
+    <string name="remote_control_disable">您的车型暂不支持此功能</string>
+    <string name="remote_control_hotcar_start">您是否要远程启动</string>
+    <string name="remote_control_hotcar_start_btn">启动</string>
+    <string name="remote_control_hotcar_stop">您是否要远程熄火</string>
+    <string name="remote_control_hotcar_stop_btn">熄火</string>
+    <string name="remote_control_lock">您是否要远程车门落锁</string>
+    <string name="remote_control_open_skylight">您是否要远程开天窗</string>
+    <string name="remote_control_open_windows">您是否要远程开窗</string>
+    <string name="remote_control_search">将会为您远程开启喇叭、灯光</string>
+    <string name="remote_control_unlock">您是否要远程车门解锁</string>
+    <string name="reset_gesture_code">重新设置手势密码</string>
+    <string name="reset_password_confirm">"您的手机会收到一条包含新密码的短信。
+如果已收到，点击“已收到”进入登录首页输入新密码登录。
+ 为了您的账户安全，登录后尽快重置密码"</string>
+    <string name="reset_password_title">重设联车密码</string>
+    <string name="set_gesture_pattern">绘制解锁图案</string>
+    <string name="set_gesture_pattern_reason">跳过手势密码</string>
+    <string name="setup_gesture_code">设置手势密码</string>
+    <string name="setup_gesture_pattern">绘制解锁图案</string>
+    <string name="setup_gesture_pattern_again">再次绘制解锁图案</string>
+    <string name="setup_success">设置成功</string>
+    <string name="short_gesture_code">最少链接4个点, 请重新输入</string>
+    <string name="ssdk_instapager_login_html" formatted="false">&lt;!DOCTYPE html> &lt;html> &lt;head> &lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"> &lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\"> &lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\"> &lt;title>%s&lt;/title> &lt;style type=\"text/css\"> body{margin:0;padding:0} .inputstyle { -webkit-tap-highlight-color:rgba(255,255,255,0); width:100%%; height:44px; color:#000; background:0; border:0; font-size:16px; outline: none; -webkit-appearance:none } .btn { width:90%%; height:44px; line-height:44px; background:#A0C035; border:0; border-radius:4px; color:#fff; font-size:16px; text-align:center; margin-top:15px; display:block } .btn:disabled { background: #dddddd; } .error { color:red; } &lt;/style> &lt;/head> &lt;body> &lt;script type=\"text/javascript\"> function login(form){ var u=form[\"u\"].value,p=form[\"p\"].value; if(!u || !p) return false; form[\"s\"].disabled = true; return true; } &lt;/script> &lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\"> %s &lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\"> &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/> &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/> &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/> &lt;/div> &lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\" %s \" class=\"btn\"/>&lt;/p> &lt;/form> &lt;/body> &lt;/html></string>
+    <string name="submit">提交</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="title">扫一扫</string>
+    <string name="title_activity_add_feed_back">AddFeedBackActivity</string>
+    <string name="title_activity_car_check_report">CarCheckReportActivity</string>
+    <string name="title_activity_car_info">CarInfoActivity</string>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+    <string name="title_activity_feed_back_history">FeedBackHistoryActivity</string>
+    <string name="title_activity_my_car">MyCarActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_add_box">添加终端设备号</string>
+    <string name="title_add_car">添加您的汽车</string>
+    <string name="title_setting">设置</string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="use_other_account_login">用其他账号登录</string>
+    <string name="vehicle_check_begin">检测开始</string>
+    <string name="vehicle_check_finished">检测完成</string>
+    <string name="vehicle_control_setting_failed">设置失败，请重试！</string>
+    <string name="vehicle_control_setting_finished">设置成功</string>
+    <string name="virtual_check_prompt">此功能需要终端支持</string>
+    <string name="weibo_bind_faild">授权失败</string>
+    <string name="weibo_content_too_long">内容不能超过140个中文!</string>
+    <string name="weibo_repeat_content">相同内容请间隔10分钟再进行发布哦!</string>
+    <string name="app_name">ZK-OBD</string>
+    <string name="device">Device:</string>
+    <string name="no_device">&lt;Select a device&gt;</string>
+    <string name="select_device">选择设备</string>
+    <string name="status">Status</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="scanning">搜索设备...</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Not connected</string>
+    <string name="ready">Ready</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">connect</string>
+    <string name="unpair">unpair</string>
+    <string name="pair">pair</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="SystemId">SystemId</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="Readdummy">D Read</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="paired">paired</string>
+    <string name="popup_title">Quit nRF UART?</string>
+    <string name="popup_message">Do you want to quit this Application?</string>
+    <string name="popup_yes">YES</string>
+    <string name="popup_no">NO</string>
+    <string name="ble_not_supported">本机不支持BLE</string>
+    <string name="scan">搜索设备</string>
+
+    <string name="cancel">取消</string>
+</resources>

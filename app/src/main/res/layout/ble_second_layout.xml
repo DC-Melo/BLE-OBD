@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9d9d9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#888888">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:background="#c9daf8"
+            android:text="主页"
+            android:textColor="#3d85c6"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="#c9daf8"
+            android:text="搜索"
+            android:textColor="#3d85c6"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/textView_isconnected_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:text="未建立连接"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ZK - OBD"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_Start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n开始\n" />
+
+    <RadioGroup
+        android:id="@+id/platform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="平台"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/radio_MQB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="MQB  " />
+
+        <RadioButton
+            android:id="@+id/radio_PQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PQ   " />
+
+        <RadioButton
+            android:id="@+id/radio_GM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GM   " />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView_rec_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接收长度：" />
+
+        <TextView
+            android:id="@+id/textView_rec_length_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView_rec_length"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView_Rec_Num_Val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="51dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView_Rec_Num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView_Rec_Num_Val"
+            android:text="接收次数：" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/car"/>
+
+    <ListView
+        android:id="@+id/listMessage"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_weight="0.19"
+        android:background="#d9d9d9"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/checkBox_data_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="数据接收" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:contentDescription="编码格式"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_receive_ASCII"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASCII" />
+
+            <RadioButton
+                android:id="@+id/radio_receive_HEX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="HEX" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView_send_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送长度：" />
+
+        <TextView
+            android:id="@+id/textView_send_length_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView_send_length"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="发送次数：" />
+
+        <TextView
+            android:id="@+id/textView_send_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="51dp"
+            android:text="0" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edittext_sendText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="200"
+        android:enabled="false"
+        android:fontFamily="1"
+        android:hint="please input string!"
+        android:lines="1"
+        android:maxLength="150"
+        android:maxLines="1"
+        android:shadowRadius="1"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView_send_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="      发送设置"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+        <RadioGroup
+            android:id="@+id/radioSendGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:contentDescription="编码格式"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_send_ASCII"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASCII" />
+
+            <RadioButton
+                android:id="@+id/radio_send_HEX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="HEX" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/checkBox_auto_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自动发送" />
+
+        <TextView
+            android:id="@+id/textView_send_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:text="发送间隔(ms)："
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edittext_send_interval_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="3"
+            android:enabled="true"
+            android:inputType="number"
+            android:text="1000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d9ead3"
+            android:text="重置"
+            android:textColor="#3d85c6" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d9ead3"
+            android:text="清除"
+            android:textColor="#3d85c6" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d9ead3"
+            android:text="发送"
+            android:textColor="#3d85c6" />
+    </LinearLayout>
+
+</LinearLayout>
